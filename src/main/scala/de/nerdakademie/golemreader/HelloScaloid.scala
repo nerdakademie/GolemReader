@@ -15,7 +15,7 @@ class HelloScaloid extends SActivity {
       }
       STextView("I am 10 dip tall")
       meToo.here
-      SButton("TestButton").onClick(printToast()).textColor(Color.RED).<<.wrap
+      SButton("TestButton").onClick(startActivity[MainActivity]).textColor(Color.RED).<<.wrap
       STextView("I am 15 dip tall") textSize 15.dip // overriding
       new SLinearLayout {
         STextView("Button: ")
